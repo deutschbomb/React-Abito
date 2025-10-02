@@ -1,8 +1,10 @@
+// React imports
+import { Link } from "react-router";
 import "./Card.css";
 
-export const Card = ({ title, price, address, date, link, image }) => {
+export const Card = ({ id, title, price, address, date, link, image }) => {
   return (
-    <a href={link} className="card">
+    <Link to={`${link}/${id}`} className="card">
       <div className="card__img">
         <img src={image} alt="item" />
       </div>
@@ -15,6 +17,6 @@ export const Card = ({ title, price, address, date, link, image }) => {
         <span className="card__info">{address}</span>
         <span className="card__info">{date}</span>
       </div>
-    </a>
+    </Link>
   );
 };
