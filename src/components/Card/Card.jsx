@@ -1,5 +1,6 @@
 // React imports
 import { Link } from "react-router";
+// Project imports
 import "./Card.css";
 
 export const Card = ({ id, title, price, address, date, link, image }) => {

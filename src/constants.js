@@ -1,62 +1,30 @@
 export const productsArray = [
   {
     id: 0,
-    title: "Товар 1",
+    title: "Пвх материал 2й сорт",
     price: "170",
     address: "Казань, р-н Вахитовский",
     date: "10 июля 11:39",
     link: "./product",
-    image: "/media/image/item.jpg",
-    description: "Продаю не спеша самокат в хорошем состоянии.",
+    image: "/media/image/pvc.jpg",
+    description: `В наличии Листовой ПВХ.
+                  Имеетcя вoзмoжнocть резки.`,
   },
   {
     id: 1,
-    title: "Товар 2",
-    price: "171",
+    title: "Электросамокат kugoo Gx",
+    price: "75000",
     address: "Казань, р-н Вахитовский",
     date: "10 июля 11:39",
     link: "./product",
-    image: "/media/image/item.jpg",
-    description: "Продаю не спеша самокат в хорошем состоянии.",
-  },
-  {
-    id: 2,
-    title: "Товар 3",
-    price: "172",
-    address: "Казань, р-н Вахитовский",
-    date: "10 июля 11:39",
-    link: "./product",
-    image: "/media/image/item.jpg",
-    description: "Продаю не спеша самокат в хорошем состоянии.",
-  },
-  {
-    id: 3,
-    title: "Товар 4",
-    price: "173",
-    address: "Казань, р-н Вахитовский",
-    date: "10 июля 11:39",
-    link: "./product",
-    image: "/media/image/item.jpg",
-    description: "Продаю не спеша самокат в хорошем состоянии.",
-  },
-  {
-    id: 4,
-    title: "Товар 5",
-    price: "174",
-    address: "Казань, р-н Вахитовский",
-    date: "10 июля 11:39",
-    link: "./product",
-    image: "/media/image/item.jpg",
-    description: "Продаю не спеша самокат в хорошем состоянии.",
-  },
-  {
-    id: 5,
-    title: "Товар 6",
-    price: "175",
-    address: "Казань, р-н Вахитовский",
-    date: "10 июля 11:39",
-    link: "./product",
-    image: "/media/image/item.jpg",
-    description: "Продаю не спеша самокат в хорошем состоянии.",
+    image: "/media/image/scooter.jpg",
+    description: `Продаю не спеша самокат в хорошем состоянии.
+                  Торг возможен.
+                  За период эксплуатации не выявлено ни одной проблемы.
+                  Из минусов - нужно прокачать задний тормоз.
+                  Установлен отсекатель сзади.
+                  Покрышки CST внедорожные.
+                  Все на подшипниках, болты протянуты.
+                  Пробег 881км, это немного для такого зверя.`,
   },
 ];

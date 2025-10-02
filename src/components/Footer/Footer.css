@@ -1,0 +1,27 @@
+.content-side__footer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.content-side__footer a {
+  text-decoration: none;
+}
+
+.content-side__footer a:hover {
+  color: rgb(37, 110, 235);
+}
+
+.content-side__footer-item {
+  margin: 0;
+
+  line-height: 16px;
+
+  color: rgb(196, 196, 196);
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
